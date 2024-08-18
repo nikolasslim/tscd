@@ -1,3 +1,5 @@
+//7 lvl
+
 /*
 export const calc = (str: string): number => {
     let num1 = str
@@ -10,6 +12,9 @@ export const calc = (str: string): number => {
     return sumNum1 - sumNum2;
   };
   */
+
+// 7lvl
+
 /*
  export function sumCubes(n: number): number {
   let sum: number = 0;
@@ -19,3 +24,14 @@ export const calc = (str: string): number => {
   return sum;
 }
 */
+
+// 7 lvl
+
+/*
+export function switcheroo(x: string): string {
+  let withoutA = x.replace(/a/g, "z");
+  let withoutB = withoutA.replace(/b/g, "a");
+  let reverse = withoutB.replace(/z/g, "b");
+  return reverse;
+}
+ */
