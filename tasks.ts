@@ -10,3 +10,12 @@ export const calc = (str: string): number => {
     return sumNum1 - sumNum2;
   };
   */
+/*
+ export function sumCubes(n: number): number {
+  let sum: number = 0;
+  for (let i = 1; i <= n; i++) {
+    sum += Math.pow(i, 3);
+  }
+  return sum;
+}
+*/
