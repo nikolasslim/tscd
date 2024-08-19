@@ -35,3 +35,10 @@ export function switcheroo(x: string): string {
   return reverse;
 }
  */
+// 7 lvl
+
+/* 
+export function sortMe (names: string[]): string[] {
+  return names.sort()
+  
+}*/
