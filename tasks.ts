@@ -70,3 +70,15 @@ export function sortMe (names: string[]): string[] {
   return [even, odd];
 }
 */
+
+// 7 lvl
+
+/*
+export function adjacentElementsProduct(arr: number[]): number {
+  let maxVal: number = -Infinity;// чутка сомнительно, но мб пойдет
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i] * arr[i + 1] > maxVal) maxVal = arr[i] * arr[i + 1];
+  }
+  return maxVal;
+}
+ */

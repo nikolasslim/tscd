@@ -1,15 +1,7 @@
-export function capitalize(s: string) {
-  let even = "";
-  let odd = "";
-
-  for (let i = 0; i <= s.length; i++) {
-    if (i % 2 === 0) {
-      even += s[i].toUpperCase();
-      odd += s[i];
-    } else {
-      even += s[i];
-      odd += s[i].toUpperCase();
-    }
+export function adjacentElementsProduct(arr: number[]): number {
+  let maxVal: number = -Infinity;
+  for (let i = 0; i < arr.length - 1; i++) {
+    if (arr[i] * arr[i + 1] > maxVal) maxVal = arr[i] * arr[i + 1];
   }
-  return [even, odd];
+  return maxVal;
 }
